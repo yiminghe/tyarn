@@ -1,0 +1,24 @@
+{
+  "name": "tyarn",
+  "version": "0.1.0",
+  "description": "yarn using npm.taobao.org as registry",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tyarn": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yiminghe/tyarn.git"
+  },
+  "keywords": [
+    "yarn",
+    "taobao"
+  ],
+  "author": "yiminghe@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^4.0.2"
+  }
+}
