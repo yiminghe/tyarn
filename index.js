@@ -14,6 +14,7 @@ const env = {
   OPERADRIVER_CDNURL: `${MIRROR_URL}/operadriver`,
   ELECTRON_MIRROR: `${MIRROR_URL}/electron/`,
   SASS_BINARY_SITE: `${MIRROR_URL}/node-sass`,
+  PUPPETEER_DOWNLOAD_HOST: MIRROR_URL,
   FLOW_BINARY_MIRROR: 'https://github.com/facebook/flow/releases/download/v',
   npm_config_registry: registry,
   yarn_registry: registry,
