@@ -1,6 +1,6 @@
 {
   "name": "tyarn",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "yarn using npm.taobao.org as registry",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

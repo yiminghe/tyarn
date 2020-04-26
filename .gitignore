@@ -34,3 +34,4 @@ android/app/src/main/assets
 android/app/src/main/res/drawable*
 xcuserdata
 .vscode
+yarn.lock
