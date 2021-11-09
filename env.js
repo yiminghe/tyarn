@@ -1,5 +1,5 @@
-const registry = 'https://registry.npm.taobao.org';
-const MIRROR_URL = 'https://cdn.npm.taobao.org/dist';
+const registry = 'https://registry.npmmirror.com/';
+const MIRROR_URL = 'https://npmmirror.com/mirrors';
 
 const env = {
   NODEJS_ORG_MIRROR: `${MIRROR_URL}/node`,
