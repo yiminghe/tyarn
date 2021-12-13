@@ -16,4 +16,15 @@ const env = {
   yarn_registry: registry,
 };
 
+const v = (require('child_process').execSync('yarn -v',{
+  encoding:'utf-8'
+}));
+
+if(!v.startsWith('1.')){
+  delete env.yarn_registry;
+  env.yarn_npm_Registry_Server=registry;
+  env.yarn_node_linker='node-modules';
+  env.yarn_pnp_mode='loose';
+}
+
 module.exports = env;
