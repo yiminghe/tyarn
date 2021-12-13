@@ -1,4 +1,3 @@
-const registry = 'https://registry.npm.taobao.org';
 const MIRROR_URL = 'https://cdn.npm.taobao.org/dist';
 
 const env = {
@@ -12,19 +11,6 @@ const env = {
   OPERADRIVER_CDNURL: `${MIRROR_URL}/operadriver`,
   PUPPETEER_DOWNLOAD_HOST: MIRROR_URL,
   npm_config_canvas_binary_host_mirror:`${MIRROR_URL}/node-canvas-prebuilt`,
-  npm_config_registry: registry,
-  yarn_registry: registry,
 };
-
-const v = (require('child_process').execSync('yarn -v',{
-  encoding:'utf-8'
-}));
-
-if(!v.startsWith('1.')){
-  delete env.yarn_registry;
-  env.yarn_npm_Registry_Server=registry;
-  env.yarn_node_linker='node-modules';
-  env.yarn_pnp_mode='loose';
-}
 
 module.exports = env;

@@ -4,6 +4,7 @@
 
 const env = require('./env');
 
+const registry = 'https://registry.npm.taobao.org';
 // can not put inside run, ENOENT
-require('./run')(env);
+require('./run')(env, registry);
 
