@@ -13,8 +13,8 @@ module.exports = function (env, registry) {
     env.yarn_registry = registry;
   } else {
     env.yarn_npm_Registry_Server = registry;
-    env.yarn_node_linker = 'node-modules';
-    env.yarn_pnp_mode = 'loose';
+    // env.yarn_node_linker = 'node-modules';
+    // env.yarn_pnp_mode = 'loose';
   }
   const processEnv = process.env;
   for (const k in processEnv) {
