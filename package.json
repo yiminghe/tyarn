@@ -1,6 +1,6 @@
 {
   "name": "tyarn",
-  "version": "0.3.3",
+  "version": "0.3.5",
   "description": "yarn using npm.taobao.org as registry",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,7 @@
   "author": "yiminghe@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "binary-mirror-config": "^1.34.0",
     "cross-spawn": "^4.0.2"
   }
 }
