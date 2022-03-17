@@ -1,6 +1,6 @@
 # tyarn
 
-yarn using npm.taobao.org as registry
+yarn using npmmirror.com as registry
 
 
 ## usage
