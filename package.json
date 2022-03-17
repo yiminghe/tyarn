@@ -1,11 +1,12 @@
 {
   "name": "tyarn",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "yarn using npmmirror.com as registry",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "index.js",
+  "files": ["lib"],
+  "bin": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:yiminghe/tyarn.git"
